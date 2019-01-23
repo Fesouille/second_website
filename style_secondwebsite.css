@@ -1,0 +1,44 @@
+/**/
+header{
+	background-image: url(images/bluesky.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;
+}
+/**/
+main{
+	max-width:65%;
+	margin:200px auto 0 auto;
+}
+hr{
+	border:2px solid red;
+}
+/**/
+#header-img img{
+	border: 1px solid white;
+	border-radius: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+#presentation-img{
+	float:left;
+	margin-right: 25px;
+}
+#presentation-img img{
+	width:250px;
+	height:250px;
+}
+#presentation-titre{
+	position: relative;
+	float:right;
+}
+#presentation-titre hr{
+	position: absolute;
+	bottom:0px;
+	width:120px;
+}
+#presentation p{
+	clear:right;
+}
+
+/**/
