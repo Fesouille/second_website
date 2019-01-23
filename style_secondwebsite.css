@@ -1,25 +1,33 @@
-/**/
+/*Style of COMMON PARTS - BEGINNING*/
+main{
+	max-width:65%;
+	margin:auto;
+}
+section{
+	clear:both;
+	margin:200px auto 0 auto;
+}
+hr{
+	border:2px solid red;
+}
+/*Style of COMMON PARTS - END*/
+
+/*Style of HEADER - BEGINNING*/
 header{
 	background-image: url(images/bluesky.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	text-align: center;
 }
-/**/
-main{
-	max-width:65%;
-	margin:200px auto 0 auto;
-}
-hr{
-	border:2px solid red;
-}
-/**/
 #header-img img{
 	border: 1px solid white;
 	border-radius: 50%;
 	margin-left: auto;
 	margin-right: auto;
 }
+/*Style of HEADER - END*/
+
+/*Style of PRESENTATION - BEGINNING*/
 #presentation-img{
 	float:left;
 	margin-right: 25px;
@@ -35,10 +43,86 @@ hr{
 #presentation-titre hr{
 	position: absolute;
 	bottom:0px;
-	width:120px;
+	width:90px;
 }
 #presentation p{
 	clear:right;
 }
+/*Style of PRESENTATION - END*/
 
-/**/
+/*Style of HOBBYS - BEGINNING*/
+#hobby-title{
+	position: relative;
+	width:9em;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+}
+#hobby-title hr{
+	position: absolute;
+	bottom:-15px;
+	width:105px;
+	left:8px;
+}
+
+#hobbys-container{
+	position: relative;
+	background-color: green;
+}
+.hobby-box{
+	display:flex;
+	width:50%;
+	height:25%;
+	float:left;
+}
+.hobby-icon{
+	margin-right: 15px;
+}
+.hobby-icon img{
+	position: relative;
+	top:25%;
+}
+.hobby-text p{
+	padding-right: 15px;
+}
+/*Style of HOBBYS - END*/
+
+/*Style of LINKS - BEGINNING*/
+/*style of the header of the LINK section - Beginning*/
+#links-header{
+	display:flex;
+	justify-content: center;
+	position: relative;
+	height:150px;
+}
+#img-left, #img-right{
+	width:25%;
+	height:25%;
+	position: absolute;
+}
+#img-left img, #img-right img{
+	width:150px;
+	height:150px;
+}
+#img-left{
+	left:0px;
+	margin-right: 150px;
+}
+#img-right{
+	right:0px;
+}
+/*style of the header of the LINK section - End*/
+
+/*style of the body of the LINK section - Beginning*/
+#links-container{
+	display:flex;
+}
+#links-container img{
+	width:70px;
+	height:70px;
+}
+/*style of the body of the LINK section - End*/
+/*Style of LINKS - END*/
+
+/*Style of FOOTER - BEGINNING*/
+/*Style of FOOTER - END*/
