@@ -4,8 +4,7 @@ main{
 	margin:auto;
 }
 section{
-	clear:both;
-	margin:200px auto 0 auto;
+	margin:100px auto 0 auto;
 }
 hr{
 	border:2px solid red;
@@ -18,7 +17,8 @@ header{
 	background-size: cover;
 	background-repeat: no-repeat;
 	text-align: center;
-}
+	padding-top: 1px;
+} 
 #header-img img{
 	border: 1px solid white;
 	border-radius: 50%;
@@ -39,6 +39,7 @@ header{
 #presentation-titre{
 	position: relative;
 	float:right;
+	text-align: left;
 }
 #presentation-titre hr{
 	position: absolute;
@@ -64,16 +65,13 @@ header{
 	width:105px;
 	left:8px;
 }
-
-#hobbys-container{
-	position: relative;
-	background-color: green;
+.hobby-line{
+	display: flex;
 }
 .hobby-box{
 	display:flex;
 	width:50%;
 	height:25%;
-	float:left;
 }
 .hobby-icon{
 	margin-right: 15px;
@@ -91,32 +89,50 @@ header{
 /*style of the header of the LINK section - Beginning*/
 #links-header{
 	display:flex;
-	justify-content: center;
+	min-height:105px;
+}
+#links-header div{
+	width:33.33%;
+	min-width: 115px;
 	position: relative;
-	height:150px;
 }
-#img-left, #img-right{
-	width:25%;
-	height:25%;
+#links-header div:nth-child(2){
+	min-width: 160px;
+	text-align: center;
+}
+#links-header img{
+	width:90%;
+	max-width: 170px;
+	min-width: 105px;
+	height:auto;
+}
+#links-header div:nth-child(3) img{
 	position: absolute;
-}
-#img-left img, #img-right img{
-	width:150px;
-	height:150px;
-}
-#img-left{
-	left:0px;
-	margin-right: 150px;
-}
-#img-right{
 	right:0px;
+}
+#links-header hr{
+	position: relative;
+	top:-15px;
+	left:-8px;
+	text-align:center;
+	width:125px;
 }
 /*style of the header of the LINK section - End*/
 
 /*style of the body of the LINK section - Beginning*/
 #links-container{
+	margin-top: 20px;
 	display:flex;
+	justify-content: center;
 }
+.links-box{
+	width:33.33%;
+	margin:0 10px 0 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	text-align: center;
+}
+
 #links-container img{
 	width:70px;
 	height:70px;
@@ -124,5 +140,50 @@ header{
 /*style of the body of the LINK section - End*/
 /*Style of LINKS - END*/
 
+/*Style of FORM - BEGINNING*/
+#form-title{
+	position: relative;
+}
+#form-title hr{
+	width:240px;
+	position: absolute;
+	left:0px;
+	top:23px;
+}
+#form-container{
+	display: flex;
+	justify-content: center;
+}
+input{
+	width:80%;
+}
+#mail{
+	width:40%;
+}
+#message{
+	width:75%;
+	height: 100px;
+}
+#form-button {
+	text-align: center;
+}
+input, textarea{
+	margin-bottom: 15px;
+}
+/*Style of FORM - END*/
+
 /*Style of FOOTER - BEGINNING*/
+footer {
+	margin: 50px 0 25px 0;
+	text-align: center;
+}
+footer p{
+	text-align: center;
+}
+nav span{
+	margin-right: 10px;
+}
+nav a{
+	text-decoration: none;
+}
 /*Style of FOOTER - END*/
