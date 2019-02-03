@@ -5,9 +5,16 @@ main{
 }
 section{
 	margin:100px auto 0 auto;
+	min-width: 450px;
 }
 hr{
 	border:2px solid red;
+}
+h1, h2, h3 {
+	font-family: 'Roboto Slab', serif;
+}
+p, span, label, button, input, textarea{
+	font-family: 'Open Sans', sans-serif;
 }
 /*Style of COMMON PARTS - END*/
 
@@ -28,33 +35,29 @@ header{
 /*Style of HEADER - END*/
 
 /*Style of PRESENTATION - BEGINNING*/
-#presentation-img{
-	float:left;
-	margin-right: 25px;
+#presentation{
+	min-height: 250px;
 }
-#presentation-img img{
-	width:250px;
-	height:250px;
-}
-#presentation-titre{
+#presentation table td:nth-child(2){
+	padding-left: 15px;
 	position: relative;
-	float:right;
-	text-align: left;
 }
-#presentation-titre hr{
+#presentation-title{
+	position: relative;
+	top:0px;
+}
+#presentation-title hr{
 	position: absolute;
-	bottom:0px;
-	width:90px;
-}
-#presentation p{
-	clear:right;
+	top:22px;
+	left:2px;
+	width:100px;
 }
 /*Style of PRESENTATION - END*/
 
 /*Style of HOBBYS - BEGINNING*/
 #hobby-title{
 	position: relative;
-	width:9em;
+	width:10em;
 	text-align: center;
 	margin-right: auto;
 	margin-left: auto;
@@ -62,19 +65,25 @@ header{
 #hobby-title hr{
 	position: absolute;
 	bottom:-15px;
-	width:105px;
+	width:120px;
 	left:8px;
 }
 .hobby-line{
 	display: flex;
 }
-.hobby-box{
-	display:flex;
+
+.first-hobby-box{
 	width:50%;
-	height:25%;
+	display: flex;
+}
+.second-hobby-box{
+	width:50%;
+	display: flex;
+	margin-left:25px;
 }
 .hobby-icon{
 	margin-right: 15px;
+
 }
 .hobby-icon img{
 	position: relative;
@@ -145,7 +154,7 @@ header{
 	position: relative;
 }
 #form-title hr{
-	width:240px;
+	width:272px;
 	position: absolute;
 	left:0px;
 	top:23px;
@@ -174,11 +183,12 @@ input, textarea{
 
 /*Style of FOOTER - BEGINNING*/
 footer {
-	margin: 50px 0 25px 0;
+	margin: 50px 0 15px 0;
 	text-align: center;
 }
 footer p{
 	text-align: center;
+	font-size: 10px;
 }
 nav span{
 	margin-right: 10px;
