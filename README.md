@@ -4,7 +4,7 @@ Second website of Ismail Joseph
 Titre: Second Website
 ----------------------------------
 
-*Exercice réalisé en janvier 2019, dans le cadre de ma formation BeCode de Web Developpeur de 7 mois, ayant commencé le 8 janvier 2019*
+*Exercice réalisé en janvier 2019, dans le cadre de ma formation [BeCode](https://www.becode.org/) de Web Developpeur de 7 mois, ayant commencé le 8 janvier 2019*
 
 * Progression:
 Ce site étant un des premiers exercices de Joseph, il peut être considéré comme terminé étant donné que Joseph préférait se concentrer sur des projets plus complets. Il reviendra éventuellement dessus pour s'entrainer ou s'amuser... Voir section "Changements"
