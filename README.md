@@ -26,7 +26,8 @@ Ce site étant un des premiers exercices de Joseph, il peut être considéré co
 
 [Cliquez ici](https://fesouille.github.io/second_website/)
 
-* Changements: 
+* Changements:
+	* 21 janvier 2019: [first website](https://fesouille.github.io/first_website/) terminé
 	* 03 février 2019: terminé
 
 
